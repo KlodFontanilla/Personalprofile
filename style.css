@@ -1,9 +1,36 @@
-body{
-font-family:Arial,sans-serif;
-background:#f4f4f4;
-margin:20px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-h1{
-color:blue;
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button {
+  padding: 8px 14px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#clock {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+#typing {
+  color: #007bff;
+  margin-bottom: 20px;
 }
