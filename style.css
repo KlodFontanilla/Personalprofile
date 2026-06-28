@@ -1,36 +1,30 @@
+/* Light Mode (default) */
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   color: #000000;
   padding: 20px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Dark Mode */
 .dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
 
+/* Button Styling */
 button {
-  padding: 8px 14px;
-  margin-bottom: 15px;
+  padding: 10px 16px;
+  margin-bottom: 20px;
   border: none;
+  border-radius: 6px;
   background-color: #333;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
-  border-radius: 5px;
+  font-size: 14px;
 }
 
 button:hover {
-  opacity: 0.8;
-}
-
-#clock {
-  margin: 10px 0;
-  font-size: 18px;
-}
-
-#typing {
-  color: #007bff;
-  margin-bottom: 20px;
+  opacity: 0.85;
 }
